@@ -51,3 +51,10 @@ annual_rainfall += november_rainfall
 december_rainfall = 4.06
 annual_rainfall += december_rainfall
 print(annual_rainfall)
+
+print("### Comments ###")
+city_name = "Grodno"
+print(city_name)
+# inhabitants
+city_pop = 365610
+print(city_pop)
