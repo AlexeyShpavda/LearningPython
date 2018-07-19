@@ -74,3 +74,10 @@ print(whole_cucumbers_per_person)
 
 float_cucumbers_per_person = float(cucumbers)/num_people
 print(float_cucumbers_per_person)
+
+print("### Multi-line Strings ###")
+haiku = """The old pond,
+A frog jumps in:
+Plop!"""
+
+print(haiku)
