@@ -58,3 +58,9 @@ print(city_name)
 # inhabitants
 city_pop = 365610
 print(city_pop)
+
+print("### Numbers ###")
+cucumbers = 1
+price_per_cucumber = 3.25
+total_cost = cucumbers * price_per_cucumber
+print(total_cost)
