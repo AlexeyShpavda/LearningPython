@@ -89,3 +89,9 @@ age_is_12 = False
 print(age_is_12)
 name_is_maria = True
 print(name_is_maria)
+
+print("### ValueError ###")
+float_1 = 0.25
+float_2 = 40.0
+product = float_1 * float_2
+big_string = "The product was " + str(product)
