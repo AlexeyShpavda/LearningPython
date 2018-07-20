@@ -1,3 +1,17 @@
+# Contents:
+# Strings
+# Practice
+# Escaping characters
+# Access by Index
+# String methods
+# str()
+# Printing Strings
+# Printing Variables
+# String Concatenation
+# Explicit String Conversion
+# String Formatting with %, Part 1
+# String Formatting with %, Part 2
+
 print("### Strings ###")
 name = "Alex"
 age = "19"
