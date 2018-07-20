@@ -15,3 +15,7 @@ print(viking)
 print("### Escaping characters ###")
 # print('This isn't flying, this is falling with style!')
 print('This isn\'t flying, this is falling with style!')
+
+print("### Access by Index ###")
+fifth_letter = "MONTY"[4]
+print(fifth_letter)
