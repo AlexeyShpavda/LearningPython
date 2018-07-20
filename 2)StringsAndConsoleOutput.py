@@ -31,3 +31,6 @@ print(parrot.upper())
 print("### str() ###")
 pi = 3.14
 print(str(pi))
+
+print("### Printing Strings ###")
+print("Monty Python")
