@@ -13,3 +13,6 @@ print(now.day)
 print("### Hot Date ###")
 # print the current date as mm/dd/yyyy
 print('%02d/%02d/%04d' % (now.month, now.day, now.year))
+
+print("### Pretty Time ###")
+print('%02d:%02d:%02d' % (now.hour, now.minute, now.second))
