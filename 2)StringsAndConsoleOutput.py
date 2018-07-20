@@ -44,3 +44,8 @@ print("Spam " + "and " + "eggs")
 
 print("### Explicit String Conversion ###")
 print("The value of pi is around " + str(3.14))
+
+print("### String Formatting with %, Part 1 ###")
+month = 7
+print("%s - 20 - 2018" % (month))
+print("%02d - 20 - 2018" % (month))
