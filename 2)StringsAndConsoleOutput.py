@@ -41,3 +41,6 @@ print(the_machine_goes)
 
 print("### String Concatenation ###")
 print("Spam " + "and " + "eggs")
+
+print("### Explicit String Conversion ###")
+print("The value of pi is around " + str(3.14))
