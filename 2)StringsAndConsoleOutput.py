@@ -11,3 +11,7 @@ viking = "Teresa"
 print(caesar)
 print(praline)
 print(viking)
+
+print("### Escaping characters ###")
+# print('This isn't flying, this is falling with style!')
+print('This isn\'t flying, this is falling with style!')
