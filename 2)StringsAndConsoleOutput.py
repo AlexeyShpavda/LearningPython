@@ -38,3 +38,6 @@ print("Monty Python")
 print("### Printing Variables ###")
 the_machine_goes = "Ping!"
 print(the_machine_goes)
+
+print("### String Concatenation ###")
+print("Spam " + "and " + "eggs")
