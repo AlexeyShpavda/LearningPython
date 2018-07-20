@@ -1,3 +1,11 @@
+# Contents:
+# The datetime Library
+# Getting the Current Date and Time
+# Extracting Information
+# Hot Date
+# Pretty Time
+# Grand Finale
+
 print("### The datetime Library ###")
 from datetime import datetime
 
