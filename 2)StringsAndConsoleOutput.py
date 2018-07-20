@@ -49,3 +49,9 @@ print("### String Formatting with %, Part 1 ###")
 month = 7
 print("%s - 20 - 2018" % (month))
 print("%02d - 20 - 2018" % (month))
+
+print("### String Formatting with %, Part 2 ###")
+name = input("What is your name? ")
+color = input("What is your favorite color? ")
+print("Ah, so your name is %s, " \
+"and your favorite color is %s." % (name, color))
