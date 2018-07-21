@@ -75,3 +75,15 @@ bool_four = True or True
 print(bool_four)
 bool_five = 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1
 print(bool_five)
+
+print("### Not ###")
+bool_one = not True
+print(bool_one)
+bool_two = not 3**4 < 4**3
+print(bool_two)
+bool_three = not 10 % 3 <= 10 % 2
+print(bool_three)
+bool_four = not 3**2 + 4**2 != 5**2
+print(bool_four)
+bool_five = not not False
+print(bool_five)
