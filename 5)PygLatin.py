@@ -20,8 +20,16 @@ print("### Ay B C ###")
 pyg = 'ay'
 
 print("### Word Up ###")
+# if len(original) > 0 and original.isalpha():
+#   word = original.lower()
+#   first = word[0]
+# else:
+#     print('empty')
+
+print("### Move it on Back ###")
 if len(original) > 0 and original.isalpha():
   word = original.lower()
   first = word[0]
+  new_word = word + first + pyg
 else:
     print('empty')
