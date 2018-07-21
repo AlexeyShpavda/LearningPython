@@ -11,10 +11,17 @@ print("### Check Yourself! ###")
 #   print("empty")
 
 print("### Check Yourself... Some More ###")
-if len(original) > 0 and original.isalpha():
-  print(original)
-else:
-  print("empty")
+# if len(original) > 0 and original.isalpha():
+#   print(original)
+# else:
+#   print("empty")
 
 print("### Ay B C ###")
 pyg = 'ay'
+
+print("### Word Up ###")
+if len(original) > 0 and original.isalpha():
+  word = original.lower()
+  first = word[0]
+else:
+    print('empty')
