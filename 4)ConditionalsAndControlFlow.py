@@ -99,3 +99,21 @@ bool_four = not not True or False and not True
 print(bool_four)
 bool_five = False or not (True and True)
 print(bool_five)
+
+print("### Mix 'n' Match ###")
+# Use boolean expressions as appropriate on the lines below!
+# Make me false!
+bool_one = (2 <= 2) and "Alpha" == "Bravo"
+print(bool_one)
+# Make me true!
+bool_two = True and True
+print(bool_two)
+# Make me false!
+bool_three = False and True
+print(bool_three)
+# Make me true!
+bool_four = not False
+print(bool_four)
+# Make me true!
+bool_five = True or True
+print(bool_five)
