@@ -117,3 +117,8 @@ print(bool_four)
 # Make me true!
 bool_five = True or True
 print(bool_five)
+
+print("### Conditional Statement Syntax ###")
+answer = "Left"
+if answer == "Left":
+    print("This is the Verbal Abuse Room, you heap of parrot droppings!")
