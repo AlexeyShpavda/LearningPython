@@ -87,3 +87,15 @@ bool_four = not 3**2 + 4**2 != 5**2
 print(bool_four)
 bool_five = not not False
 print(bool_five)
+
+print("### This and That (or This, But Not That!) ###")
+bool_one = False or not True and True
+print(bool_one)
+bool_two = False and not True or True
+print(bool_two)
+bool_three = True and not (False or False)
+print(bool_three)
+bool_four = not not True or False and not True
+print(bool_four)
+bool_five = False or not (True and True)
+print(bool_five)
