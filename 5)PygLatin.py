@@ -35,10 +35,20 @@ print("### Move it on Back ###")
 #     print('empty')
 
 print("### Ending Up ###")
+# if len(original) > 0 and original.isalpha():
+#   word = original.lower()
+#   first = word[0]
+#   new_word = word + first + pyg
+#   new_word = new_word[1:len(new_word)]
+# else:
+#     print('empty')
+
+print("### Testing, Testing, is This Thing On? ###")
 if len(original) > 0 and original.isalpha():
   word = original.lower()
   first = word[0]
   new_word = word + first + pyg
   new_word = new_word[1:len(new_word)]
+  print(new_word)
 else:
     print('empty')
