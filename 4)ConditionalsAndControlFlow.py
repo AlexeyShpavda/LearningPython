@@ -15,3 +15,21 @@ print(bool_four)
 # True if 99 != (98 + 1) or to False otherwise.
 bool_five = False
 print(bool_five)
+
+print("### Compare... Closelier! ###")
+# Assign True or False as appropriate on the lines below!
+# (20 - 10) > 15
+bool_one = False
+print(bool_one)
+# (10 + 17) == 3**16
+bool_two = False
+print(bool_two)
+# 1**2 <= -1
+bool_three = False
+print(bool_three)
+# 40 * 4 >= -4
+bool_four = True
+print(bool_four)
+# 100 != 10**2
+bool_five = False
+print(bool_five)
