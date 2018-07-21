@@ -1,3 +1,17 @@
+# Contents:
+# Compare Closely!
+# Compare... Closelier!
+# How the Tables Have Turned
+# And
+# Or
+# Not
+# This and That (or This, But Not That!)
+# Mix 'n' Match
+# Conditional Statement Syntax
+# Else Problems, I Feel Bad for You, Son...
+# I Got 99 Problems, But a Switch Ain't One
+# The Big If
+
 print("### Compare Closely! ###")
 # Assign True or False as appropriate on the lines below!
 # True if 17 < 328 or to False if it is not.
@@ -151,8 +165,6 @@ def french_soldier():
         return False
 
 print("### I Got 99 Problems, But a Switch Ain't One ###")
-
-
 def greater_less_equal_5(answer):
     if answer > 5:
         return 1
