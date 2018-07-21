@@ -33,3 +33,21 @@ print(bool_four)
 # 100 != 10**2
 bool_five = False
 print(bool_five)
+
+print("### How the Tables Have Turned ###")
+# Create comparative statements as appropriate on the lines below!
+# Make me true!
+bool_one = 3 < 5
+print(bool_one)
+# Make me false!
+bool_two = 99 == "a"
+print(bool_two)
+# Make me true!
+bool_three = 99 / 3 <= 45
+print(bool_three)
+# Make me false!
+bool_four = "hello" != "hello"
+print(bool_four)
+# Make me true!
+bool_five = "alex" == "alex"
+print(bool_five)
