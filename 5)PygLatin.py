@@ -1,3 +1,14 @@
+# Contents:
+# Ahoy! (or Should I Say Ahoyay!)
+# Input!
+# Check Yourself!
+# Check Yourself... Some More
+# Ay B C
+# Word Up
+# Move it on Back
+# Ending Up
+# Testing, Testing, is This Thing On?
+
 print("### Ahoy! (or Should I Say Ahoyay!) ###")
 print("Pig Latin")
 
