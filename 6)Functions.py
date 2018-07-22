@@ -80,3 +80,7 @@ print(maximum)
 print("### min() ###")
 minimum = min(-1, 20, 13)
 print(minimum)
+
+print("### abs() ###")
+absolute = abs(-42)
+print(absolute)
