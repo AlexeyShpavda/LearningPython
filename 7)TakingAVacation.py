@@ -1,3 +1,12 @@
+# Contents:
+# Before We Begin
+# Planning Your Trip
+# Getting There
+# Transportation
+# Pull it Together
+# Hey, You Never Know!
+# Plan Your Trip!
+
 print("### Before We Begin ###")
 def bigger(first, second):
   print(max(first, second))
