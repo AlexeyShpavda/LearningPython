@@ -42,3 +42,7 @@ def by_three(number):
 print("### Generic Imports ###")
 import math
 print(math.sqrt(25))
+
+print("### Function Imports ###")
+from math import sqrt
+print(sqrt(25))
