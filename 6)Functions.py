@@ -50,3 +50,8 @@ print(sqrt(25))
 print("### Universal Imports ###")
 from math import *
 print(sqrt(25))
+
+print("### Here Be Dragons ###")
+import math # Imports the math module
+everything = dir(math) # Sets everything to a list of things from math
+print(everything) # Prints 'em all!
