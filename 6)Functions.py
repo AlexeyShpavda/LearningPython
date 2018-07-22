@@ -76,3 +76,7 @@ distance_from_zero(-10)
 print("### max() ###")
 maximum = max(-1, 20, 13)
 print(maximum)
+
+print("### min() ###")
+minimum = min(-1, 20, 13)
+print(minimum)
