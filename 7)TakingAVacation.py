@@ -36,3 +36,6 @@ print("### Pull it Together ###")
 print("### Hey, You Never Know! ###")
 def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
+
+print("### Plan Your Trip! ###")
+print(trip_cost("Los Angeles", 5, 600))
