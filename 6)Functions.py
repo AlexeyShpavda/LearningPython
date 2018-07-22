@@ -38,3 +38,7 @@ def by_three(number):
     return cube(number)
   else:
     return False
+
+print("### Generic Imports ###")
+import math
+print(math.sqrt(25))
