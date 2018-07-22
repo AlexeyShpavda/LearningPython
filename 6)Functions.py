@@ -46,3 +46,7 @@ print(math.sqrt(25))
 print("### Function Imports ###")
 from math import sqrt
 print(sqrt(25))
+
+print("### Universal Imports ###")
+from math import *
+print(sqrt(25))
