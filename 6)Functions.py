@@ -84,3 +84,8 @@ print(minimum)
 print("### abs() ###")
 absolute = abs(-42)
 print(absolute)
+
+print("### type() ###")
+print(type(14))
+print(type(1.4))
+print(type('alex'))
