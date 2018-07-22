@@ -102,3 +102,10 @@ def shut_down(s):
 print("### Review: Modules ###")
 import math
 print(math.sqrt(13689))
+
+print("### Review: Built-In Functions ###")
+def distance_from_zero(num):
+  if type(num) == int or type(num) == float:
+    return abs(num)
+  else:
+    return "Nope"
