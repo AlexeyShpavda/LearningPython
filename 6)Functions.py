@@ -98,3 +98,7 @@ def shut_down(s):
     return "Shutdown aborted"
   else:
     return "Sorry"
+
+print("### Review: Modules ###")
+import math
+print(math.sqrt(13689))
