@@ -28,3 +28,7 @@ def rental_car_cost(days):
   elif days >= 3:
     cost -= 20
   return cost
+
+print("### Pull it Together ###")
+def trip_cost(city, days):
+  return rental_car_cost(days) + hotel_cost(days - 1) + plane_ride_cost(city)
