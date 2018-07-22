@@ -1,3 +1,21 @@
+# Contents:
+# Function Junction
+# Call and Response
+# Parameters and Arguments
+# Practice Makes Perfect
+# Generic Imports
+# Function Imports
+# Universal Imports
+# Here Be Dragons
+# On Beyond Strings
+# max()
+# min()
+# abs()
+# type()
+# Review: Functions
+# Review: Modules
+# Review: Built-In Functions
+
 print("### Function Junction ###")
 def spam():
   """Prints 'Eggs!'"""
