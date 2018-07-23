@@ -19,3 +19,15 @@ print("### New Neighbors ###")
 zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
 zoo_animals[2] = "hyena"
 print(zoo_animals)
+
+print("### Late Arrivals & List Length ###")
+suitcase = []
+suitcase.append("passport")
+suitcase.append("sunglasses")
+suitcase.append("camera")
+suitcase.append("hat")
+
+list_length = len(suitcase)
+
+print("There are %d items in the suitcase." % (list_length))
+print(suitcase)
