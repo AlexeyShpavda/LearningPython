@@ -51,3 +51,9 @@ dog = animals[3:6]
 print(dog)
 frog = animals[6:]
 print(frog)
+
+print("### Maintaining Order ###")
+animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
+duck_index = animals.index("duck")
+animals.insert(duck_index,"cobra")
+print(animals)
