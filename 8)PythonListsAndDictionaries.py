@@ -6,3 +6,11 @@ if len(zoo_animals) > 3:
   print("The second animal at the zoo is the " + zoo_animals[1])
   print("The third animal at the zoo is the " + zoo_animals[2])
   print("The fourth animal at the zoo is the " + zoo_animals[3])
+
+print("### Access by Index ###")
+numbers = [5, 6, 7, 8]
+
+print("Adding the numbers at indices 0 and 2...")
+print(numbers[0] + numbers[2])
+print("Adding the numbers at indices 1 and 3...")
+print(numbers[1] + numbers[3])
