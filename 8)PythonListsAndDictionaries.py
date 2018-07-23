@@ -73,3 +73,10 @@ for number in start_list:
 square_list.sort()
 
 print(square_list)
+
+print("### This Next Part is Key ###")
+residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
+
+print(residents['Puffin'])
+print(residents['Sloth'])
+print(residents['Burmese Python'])
