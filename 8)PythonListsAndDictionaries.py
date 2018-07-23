@@ -80,3 +80,12 @@ residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
 print(residents['Puffin'])
 print(residents['Sloth'])
 print(residents['Burmese Python'])
+
+print("### New Entries ###")
+menu = {}
+menu['Chicken Alfredo'] = 14.50
+menu['French fries'] = 2.50
+
+
+print("There are " + str(len(menu)) + " items on the menu.")
+print(menu)
