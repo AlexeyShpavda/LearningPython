@@ -89,3 +89,16 @@ menu['French fries'] = 2.50
 
 print("There are " + str(len(menu)) + " items on the menu.")
 print(menu)
+
+print("### Changing Your Mind ###")
+# key - animal_name : value - location
+zoo_animals = { 'Unicorn' : 'Cotton Candy House',
+'Sloth' : 'Rainforest Exhibit',
+'Bengal Tiger' : 'Jungle House',
+'Atlantic Puffin' : 'Arctic Exhibit',
+'Rockhopper Penguin' : 'Arctic Exhibit'}
+
+del zoo_animals['Sloth']
+zoo_animals['Rockhopper Penguin'] = 'Plains Exhibit'
+
+print(zoo_animals)
