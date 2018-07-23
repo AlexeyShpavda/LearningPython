@@ -1,3 +1,19 @@
+# Contents:
+# Introduction to Lists
+# Access by Index
+# New Neighbors
+# Late Arrivals & List Length
+# List Slicing
+# Slicing Lists and Strings
+# Maintaining Order
+# For One and All
+# More with 'for'
+# This Next Part is Key
+# New Entries
+# Changing Your Mind
+# Remove a Few Things
+# It's Dangerous to Go Alone! Take This
+
 print("### Introduction to Lists ###")
 zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"];
 
