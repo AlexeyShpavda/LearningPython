@@ -57,3 +57,9 @@ animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
 duck_index = animals.index("duck")
 animals.insert(duck_index,"cobra")
 print(animals)
+
+print("### For One and All ###")
+my_list = [1, 9, 3, 8, 5, 7]
+
+for number in my_list:
+    print(number * 2)
