@@ -31,3 +31,13 @@ list_length = len(suitcase)
 
 print("There are %d items in the suitcase." % (list_length))
 print(suitcase)
+
+print("### List Slicing ###")
+suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
+print(suitcase)
+
+first = suitcase[0:2]
+middle = suitcase[2:4]
+last = suitcase[4:6]
+
+print(first + middle + last)
