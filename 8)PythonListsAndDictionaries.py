@@ -14,3 +14,8 @@ print("Adding the numbers at indices 0 and 2...")
 print(numbers[0] + numbers[2])
 print("Adding the numbers at indices 1 and 3...")
 print(numbers[1] + numbers[3])
+
+print("### New Neighbors ###")
+zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
+zoo_animals[2] = "hyena"
+print(zoo_animals)
