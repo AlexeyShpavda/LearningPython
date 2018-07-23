@@ -102,3 +102,7 @@ del zoo_animals['Sloth']
 zoo_animals['Rockhopper Penguin'] = 'Plains Exhibit'
 
 print(zoo_animals)
+
+print("### Remove a Few Things ###")
+backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
+backpack.remove('dagger')
