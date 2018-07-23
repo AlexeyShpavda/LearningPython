@@ -106,3 +106,18 @@ print(zoo_animals)
 print("### Remove a Few Things ###")
 backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
 backpack.remove('dagger')
+
+print("### It's Dangerous to Go Alone! Take This ###")
+inventory = {
+  'gold' : 500,
+  'pouch' : ['flint', 'twine', 'gemstone'], # Assigned a new list to 'pouch' key
+  'backpack' : ['xylophone','dagger', 'bedroll','bread loaf']
+}
+
+inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
+inventory['pouch'].sort()
+inventory['pocket'] = ['seashell', 'strange berry', 'lint']
+inventory['backpack'].sort()
+inventory['backpack'].remove('dagger')
+inventory['gold'] = inventory['gold'] + 50
+print(inventory)
