@@ -41,3 +41,13 @@ middle = suitcase[2:4]
 last = suitcase[4:6]
 
 print(first + middle + last)
+
+print("### Slicing Lists and Strings ###")
+animals = "catdogfrog"
+
+cat = animals[:3]
+print(cat)
+dog = animals[3:6]
+print(dog)
+frog = animals[6:]
+print(frog)
