@@ -60,3 +60,9 @@ stock = {
   "orange": 32,
   "pear": 15
 }
+
+print("### Keeping Track of the Produce ###")
+for food in prices:
+  print(food)
+  print("price: %s" % prices[food])
+  print("stock: %s" % stock[food])
