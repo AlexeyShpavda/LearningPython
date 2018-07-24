@@ -29,3 +29,18 @@ def fizz_count(list):
 
 list = ["fizz", "fizz", "fizz" , "x", "y", "z"]
 print(fizz_count(list))
+
+print("### String Looping ###")
+for letter in "AlexeyShpavda":
+    print(letter)
+
+# Empty lines to make the output pretty
+print()
+print()
+
+word = "alt"
+
+for letter in word:
+    # Only print out the letter i
+    if letter == "a":
+        print(letter)
