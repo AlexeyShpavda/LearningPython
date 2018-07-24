@@ -1,3 +1,16 @@
+# Contents:
+# BeFOR We Begin
+# This is KEY!
+# Control Flow and Looping
+# Lists + Functions
+# String Looping
+# Your Own Store!
+# Investing in Stock
+# Keeping Track of the Produce
+# Something of Value
+# Shopping at the Market
+# Stocking Out
+
 print("### BeFOR We Begin ###")
 names = ["Alex", "Mariah", "Martine", "Columbus"]
 for name in names:
