@@ -73,3 +73,13 @@ for food in prices:
   print(prices[food] * stock[food])
   total = total + prices[food] * stock[food]
 print(total)
+
+print("### Shopping at the Market ###")
+groceries = ["banana", "orange", "apple"]
+
+print("### Making a Purchase ###")
+def compute_bill(food):
+  total = 0
+  for item in food:
+    total = total + prices[item]
+  return total
