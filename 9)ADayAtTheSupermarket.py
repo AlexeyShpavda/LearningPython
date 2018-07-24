@@ -44,3 +44,11 @@ for letter in word:
     # Only print out the letter i
     if letter == "a":
         print(letter)
+
+print("### Your Own Store! ###")
+prices = {
+  "banana": 4,
+  "apple": 2,
+  "orange": 1.5,
+  "pear": 3
+}
