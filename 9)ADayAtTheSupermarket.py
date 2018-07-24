@@ -78,8 +78,17 @@ print("### Shopping at the Market ###")
 groceries = ["banana", "orange", "apple"]
 
 print("### Making a Purchase ###")
+# def compute_bill(food):
+#   total = 0
+#   for item in food:
+#     total = total + prices[item]
+#   return total
+
+print("### Stocking Out ###")
 def compute_bill(food):
   total = 0
   for item in food:
-    total = total + prices[item]
+    if stock[item] > 0:
+      total += prices[item]
+      stock[item] -= 1
   return total
