@@ -55,3 +55,12 @@ def average(numbers):
   total = sum(numbers)
   total = float(total)
   return total / len(numbers)
+
+print("### Just Weight and See ###")
+def get_average(student):
+    homework = average(student["homework"])
+    quizzes = average(student["quizzes"])
+    tests = average(student["tests"])
+
+    total = homework * .1 + quizzes * .3 + tests * .6
+    return total
