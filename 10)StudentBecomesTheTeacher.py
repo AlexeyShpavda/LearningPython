@@ -87,3 +87,6 @@ def get_class_average(class_list):
     student_avg = get_average(student)
     results.append(student_avg)
   return average(results)
+
+print("### How is Everybody Doing? ###")
+print(get_class_average(students))
