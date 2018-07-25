@@ -42,3 +42,10 @@ tyler = {
 
 print("### Put It Together ###")
 students = [lloyd, alice, tyler]
+
+print("### For the Record ###")
+for student in students:
+  print(student["name"])
+  print(student["homework"])
+  print(student["quizzes"])
+  print(student["tests"])
