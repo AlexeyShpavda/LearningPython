@@ -1,3 +1,14 @@
+# Contents:
+# Lesson Number One
+# What's the Score?
+# Put It Together
+# For the Record
+# It's Okay to be Average
+# Just Weight and See
+# Sending a Letter
+# Part of the Whole
+# How is Everybody Doing?
+
 print("### Lesson Number One ###")
 # lloyd = {
 #   "name" : "Lloyd",
