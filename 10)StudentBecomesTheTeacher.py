@@ -49,3 +49,9 @@ for student in students:
   print(student["homework"])
   print(student["quizzes"])
   print(student["tests"])
+
+print("### It's Okay to be Average ###")
+def average(numbers):
+  total = sum(numbers)
+  total = float(total)
+  return total / len(numbers)
