@@ -64,3 +64,26 @@ def get_average(student):
 
     total = homework * .1 + quizzes * .3 + tests * .6
     return total
+
+print("### Sending a Letter ###")
+def get_letter_grade(score):
+    if score >= 90:
+        return "A"
+    elif score >= 80:
+        return "B"
+    elif score >= 70:
+        return "C"
+    elif score >= 60:
+        return "D"
+    else:
+        return "F"
+
+print(get_letter_grade(get_average(lloyd)))
+
+print("### Part of the Whole ###")
+def get_class_average(class_list):
+  results = []
+  for student in class_list:
+    student_avg = get_average(student)
+    results.append(student_avg)
+  return average(results)
