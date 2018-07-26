@@ -54,3 +54,11 @@ def list_index_function(list, index):
 
 n = [3, 5, 7]
 list_index_function(n, 0)
+
+print("### Modifying an element of a list in a function ###")
+def list_modifying_function(x):
+    x[1] = x[1] + 3
+    return x
+
+n = [3, 5, 7]
+print(list_modifying_function(n))
