@@ -18,3 +18,9 @@ n.pop(0)
 # n.remove(1)
 # del(n[0])
 print(n)
+
+print("### Changing the functionality of a function ###")
+number = 5
+def my_function(x):
+    return x * 3
+print(my_function(number))
