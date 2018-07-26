@@ -47,3 +47,10 @@ def list_function(x):
 
 n = [3, 5, 7]
 list_function(n)
+
+print("### Using an element from a list in a function ###")
+def list_index_function(list, index):
+    print(list[index])
+
+n = [3, 5, 7]
+list_index_function(n, 0)
