@@ -87,3 +87,11 @@ def double_list(x):
   return x
 
 print(double_list(n))
+
+print("### Passing a range into a function ###")
+n = [3, 5, 7]
+def my_function(n, x):
+  for i in range(0, x):
+      print(n[i])
+
+my_function(n, 3)
