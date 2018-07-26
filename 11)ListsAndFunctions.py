@@ -69,5 +69,12 @@ def list_extender(list):
   list.append(9)
   return list
 
-
 print(list_extender(n))
+
+print("### Printing out a list item by item in a function ###")
+n = [3, 5, 7]
+def print_list(x):
+    for i in range(0, len(x)):
+        print(x[i])
+
+print_list(n)
