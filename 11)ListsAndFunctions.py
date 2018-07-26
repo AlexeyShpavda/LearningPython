@@ -115,3 +115,11 @@ def join_strings(words):
   return result
 
 print(join_strings(n))
+
+print("### Using two lists as two arguments in a function ###")
+first = [1, 2, 3]
+second = [4, 5, 6]
+def join_lists(first_list, second_list):
+	return first_list + second_list
+
+print(join_lists(first, second))
