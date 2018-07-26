@@ -6,3 +6,8 @@ print("### List element modification ###")
 n = [1, 3, 5]
 n[1] = n[1] * 5
 print(n)
+
+print("### Appending to a list ###")
+n = [1, 3, 5]
+n.append(7)
+print(n)
