@@ -24,3 +24,11 @@ number = 5
 def my_function(x):
     return x * 3
 print(my_function(number))
+
+print("### More than one argument ###")
+d = 14
+m = 12
+def add_function(num1, num2):
+  return num1 + num2
+
+print(add_function(d, m))
