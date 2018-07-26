@@ -78,3 +78,12 @@ def print_list(x):
         print(x[i])
 
 print_list(n)
+
+print("### Modifying each element in a list in a function ###")
+n = [3, 5, 7]
+def double_list(x):
+  for i in range(0, len(x)):
+    x[i] = x[i] * 2
+  return x
+
+print(double_list(n))
