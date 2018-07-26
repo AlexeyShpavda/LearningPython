@@ -11,3 +11,10 @@ print("### Appending to a list ###")
 n = [1, 3, 5]
 n.append(7)
 print(n)
+
+print("### Removing elements from lists ###")
+n = [1, 3, 5]
+n.pop(0)
+# n.remove(1)
+# del(n[0])
+print(n)
