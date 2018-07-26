@@ -23,6 +23,7 @@ print("### Changing the functionality of a function ###")
 number = 5
 def my_function(x):
     return x * 3
+
 print(my_function(number))
 
 print("### More than one argument ###")
@@ -32,3 +33,10 @@ def add_function(num1, num2):
   return num1 + num2
 
 print(add_function(d, m))
+
+print("### Strings in functions ###")
+word = 'Hello'
+def string_function(s):
+  return s + ' World'
+
+print(string_function(word))
