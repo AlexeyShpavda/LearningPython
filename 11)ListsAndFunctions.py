@@ -40,3 +40,10 @@ def string_function(s):
   return s + ' World'
 
 print(string_function(word))
+
+print("### Passing a list to a function ###")
+def list_function(x):
+    print(x)
+
+n = [3, 5, 7]
+list_function(n)
