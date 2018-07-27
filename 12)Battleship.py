@@ -42,3 +42,6 @@ print("### ...and Seek! ###")
 guess_row = int(input("Guess Row: "))
 guess_col = int(input("Guess Col: "))
 
+print("### You win! ###")
+if guess_row == ship_row and guess_col == ship_col:
+  print("Congratulations! You sank my battleship!")
