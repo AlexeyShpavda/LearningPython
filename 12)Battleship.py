@@ -1,3 +1,19 @@
+# Contents:
+# Getting Our Feet Wet
+# Make a List
+# Check it Twice
+# Custom Print
+# Printing Pretty
+# Hide...
+# ...and Seek!
+# You win!
+# Danger, Will Robinson!!!
+# Bad Aim
+# Not Again!
+# Play It, Sam
+# Game Over
+# A Real Win
+
 print("### Getting Our Feet Wet ###")
 board = []
 
