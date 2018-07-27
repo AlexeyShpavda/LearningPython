@@ -10,8 +10,15 @@ print("### Check it Twice ###")
 #   print(i)
 
 print("### Custom Print ###")
+# def print_board(board_in):
+#     for row in board_in:
+#         print(row)
+#
+# print_board(board)
+
+print("### Printing Pretty ###")
 def print_board(board_in):
     for row in board_in:
-        print(row)
+        print(" ".join(row))
 
 print_board(board)
