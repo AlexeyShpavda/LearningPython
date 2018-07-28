@@ -102,3 +102,14 @@ word = "eggs!"
 
 for character in word:
   print(character)
+
+print("### For your A ###")
+phrase = "A bird in the hand..."
+
+for char in phrase:
+  if char == "A" or char == 'a':
+    print('X')
+  else:
+    print(char)
+
+print
