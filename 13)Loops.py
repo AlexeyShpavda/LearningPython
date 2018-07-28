@@ -7,3 +7,10 @@ if count < 10:
 while count < 10:
   print("Hello, I am a while and count is", count)
   count += 1
+
+print("### Condition ###")
+loop_condition = True
+
+while loop_condition:
+  print("I am a loop")
+  loop_condition = False
