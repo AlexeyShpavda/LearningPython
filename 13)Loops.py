@@ -27,3 +27,10 @@ choice = input('Enjoying the course? (y/n)')
 
 while choice != 'y' and choice != 'n':
   choice = input("Sorry, I didn't catch that. Enter again: ")
+
+print("### Infinite loops ###")
+count = 0
+while count < 10:
+  print(count)
+  # Increment count
+  count += 1
