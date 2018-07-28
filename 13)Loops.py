@@ -91,3 +91,14 @@ for num in range(3):
   hobbies.append(hobby)
 
 print(hobbies)
+
+print("### For your strings ###")
+thing = "spam!"
+
+for c in thing:
+  print(c)
+
+word = "eggs!"
+
+for character in word:
+  print(character)
