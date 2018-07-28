@@ -144,3 +144,15 @@ list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
 
 for a, b in zip(list_a, list_b):
   print(max(a, b))
+
+print("### For / else ###")
+fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
+
+print('You have...')
+for f in fruits:
+  if f == 'tomato':
+    print('A tomato is not a fruit!')
+    break
+  print('A', f)
+else:
+  print('A fine selection of fruits!')
