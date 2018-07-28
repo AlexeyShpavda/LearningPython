@@ -82,3 +82,12 @@ print("Counting...")
 
 for i in range(20):
   print(i)
+
+print("### For your hobbies ###")
+hobbies = []
+
+for num in range(3):
+  hobby =  input("Tell me one of your favorite hobbies: ")
+  hobbies.append(hobby)
+
+print(hobbies)
