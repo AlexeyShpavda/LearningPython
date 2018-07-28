@@ -21,3 +21,9 @@ num = 1
 while num <= 10:
   print(num ** 2)
   num += 1
+
+print("### Simple errors ###")
+choice = input('Enjoying the course? (y/n)')
+
+while choice != 'y' and choice != 'n':
+  choice = input("Sorry, I didn't catch that. Enter again: ")
