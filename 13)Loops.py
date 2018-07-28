@@ -167,3 +167,11 @@ for f in fruits:
   print('A', f)
 else:
   print('A fine selection of fruits!')
+
+print("### Create your own ###")
+test = ["a", "b", "c"]
+
+for x in test:
+    print(x)
+else:
+    print("x")
