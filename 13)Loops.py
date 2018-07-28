@@ -124,3 +124,9 @@ for num in numbers:
 
 for num in numbers:
   print(num ** 2)
+
+print("### Looping over a dictionary ###")
+d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+for key in d:
+  print(key, d[key])
