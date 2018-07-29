@@ -104,3 +104,10 @@ def purify(lst):
         if elem % 2 == 0:
             result.append(elem)
     return result
+
+print("### product ###")
+def product(list):
+  total = 1
+  for num in list:
+    total = total * num
+  return total
