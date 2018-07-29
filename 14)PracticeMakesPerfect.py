@@ -96,3 +96,11 @@ def count(sequence, item):
         if i == item:
             count += 1
     return count
+
+print("### purify ###")
+def purify(lst):
+    result = []
+    for elem in lst:
+        if elem % 2 == 0:
+            result.append(elem)
+    return result
