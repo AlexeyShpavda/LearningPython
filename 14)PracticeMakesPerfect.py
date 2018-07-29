@@ -4,3 +4,9 @@ def is_even(x):
     return True
   else:
     return False
+
+print("### is_int ###")
+def is_int(x):
+  absolute = abs(x)
+  rounded = round(absolute)
+  return absolute - rounded == 0
