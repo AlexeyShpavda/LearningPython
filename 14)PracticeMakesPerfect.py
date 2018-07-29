@@ -19,3 +19,11 @@ def digit_sum(x):
         x = x // 10
         print(x)
     return total
+
+print("### factorial ###")
+def factorial(x):
+    total = 1
+    while x > 0:
+        total *= x
+        x -= 1
+    return total
