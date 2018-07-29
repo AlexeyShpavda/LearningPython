@@ -1,3 +1,10 @@
+# Contents:
+# Print those grades
+# The sum of scores
+# Computing the Average
+# The Variance
+# Standard Deviation
+
 print("### Print those grades ###")
 grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 
