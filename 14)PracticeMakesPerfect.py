@@ -1,3 +1,19 @@
+# Contents:
+# is_even
+# is_int
+# digit_sum
+# factorial
+# is_prime
+# reverse
+# anti_vowel
+# scrabble_score
+# censor
+# count
+# purify
+# product
+# remove_duplicates
+# median
+
 print("### is_even ###")
 def is_even(x):
   if(x % 2 == 0):
