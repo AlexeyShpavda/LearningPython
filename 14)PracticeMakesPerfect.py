@@ -74,3 +74,17 @@ def scrabble_score(word):
             if letter == leter:
                 total = total + score[leter]
     return total
+
+print("### censor ###")
+def censor(text, word):
+    words = text.split()
+    result = ''
+    stars = '*' * len(word)
+    for i in words:
+        if i == word:
+            result += stars
+        else:
+            result += i
+        result += ' '
+
+    return result
