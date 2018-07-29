@@ -10,3 +10,12 @@ def is_int(x):
   absolute = abs(x)
   rounded = round(absolute)
   return absolute - rounded == 0
+
+print("### digit_sum ###")
+def digit_sum(x):
+    total = 0
+    while x > 0:
+        total += x % 10
+        x = x // 10
+        print(x)
+    return total
