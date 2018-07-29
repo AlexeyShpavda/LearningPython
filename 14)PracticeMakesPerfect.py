@@ -37,3 +37,12 @@ def is_prime(x):
             if x % n == 0:
                 return False
         return True
+
+print("### reverse ###")
+def reverse(text):
+    word = ""
+    l = len(text) - 1
+    while l >= 0:
+        word = word + text[l]
+        l -= 1
+    return word
