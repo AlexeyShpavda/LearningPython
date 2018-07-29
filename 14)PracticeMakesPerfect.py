@@ -27,3 +27,13 @@ def factorial(x):
         total *= x
         x -= 1
     return total
+
+print("### is_prime ###")
+def is_prime(x):
+    if x < 2:
+        return False
+    else:
+        for n in range(2, x / 2):
+            if x % n == 0:
+                return False
+        return True
