@@ -46,3 +46,15 @@ print("### List Slicing Syntax ###")
 l = [i ** 2 for i in range(1, 11)]
 
 print(l[2:9:2])
+
+print("### Omitting Indices ###")
+to_five = ['A', 'B', 'C', 'D', 'E']
+
+print(to_five[3:])
+# prints ['D', 'E']
+
+print(to_five[:2])
+# prints ['A', 'B']
+
+print(to_five[::2])
+# print ['A', 'C', 'E']
