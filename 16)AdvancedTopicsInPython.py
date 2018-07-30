@@ -78,3 +78,7 @@ print(odds)
 
 middle_third = to_21[7:14]
 print(middle_third)
+
+print("### Anonymous Functions ###")
+my_list = [i for i in range(16)]
+print(filter(lambda x: x % 3 == 0, my_list))
