@@ -30,3 +30,10 @@ for key in my_dict:
 print("### Building Lists ###")
 evens_to_50 = [i for i in range(51) if i % 2 == 0]
 print(evens_to_50)
+
+print("### List Comprehension Syntax ###")
+doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
+print(doubles_by_3)
+
+even_squares = [x ** 2 for x in range(1, 12) if x % 2 == 0]
+print(even_squares)
