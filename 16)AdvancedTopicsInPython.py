@@ -58,3 +58,7 @@ print(to_five[:2])
 
 print(to_five[::2])
 # print ['A', 'C', 'E']
+
+print("### Reversing a List ###")
+letters = ['A', 'B', 'C', 'D', 'E']
+print(letters[::-1])
