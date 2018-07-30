@@ -108,3 +108,9 @@ print("### List Slicing ###")
 str = "ABCDEFGHIJ"
 start, end, stride = 1, 6, 2
 print(str[start:end:stride])
+
+print("### Lambda Expressions ###")
+garbled = "IXXX aXXmX aXXXnXoXXXXXtXhXeXXXXrX sXXXXeXcXXXrXeXt mXXeXsXXXsXaXXXXXXgXeX!XX"
+
+message = filter(lambda x: x != "X", garbled)
+print(message)
