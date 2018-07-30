@@ -90,3 +90,12 @@ print(filter(lambda x: x == "Python", languages))
 print("### Try It! ###")
 squares = [x ** 2 for x in range(1, 11)]
 print(filter(lambda x: x >= 30 and x <= 70, squares))
+
+print("### Iterating Over Dictionaries ###")
+movies = {
+  "Monty Python and the Holy Grail": "Great",
+  "Monty Python's Life of Brian": "Good",
+  "Monty Python's Meaning of Life": "Okay"
+}
+
+print(movies.items())
