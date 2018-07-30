@@ -41,3 +41,8 @@ print(even_squares)
 print("### Now You Try! ###")
 cubes_by_four = [x ** 3 for x in range(1, 11) if ((x ** 3) % 4) == 0]
 print(cubes_by_four)
+
+print("### List Slicing Syntax ###")
+l = [i ** 2 for i in range(1, 11)]
+
+print(l[2:9:2])
