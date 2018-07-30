@@ -16,3 +16,13 @@ my_dict = {
 
 print(my_dict.keys())
 print(my_dict.values())
+
+print("### The 'in' Operator ###")
+my_dict = {
+  'name': 'Max',
+  'age':  19,
+  'auto': 'Audi',
+}
+
+for key in my_dict:
+  print(key, my_dict[key])
