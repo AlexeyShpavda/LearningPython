@@ -82,3 +82,7 @@ print(middle_third)
 print("### Anonymous Functions ###")
 my_list = [i for i in range(16)]
 print(filter(lambda x: x % 3 == 0, my_list))
+
+print("### Lambda Syntax ###")
+languages = ["HTML", "CSS", "JavaScript", "Python"]
+print(filter(lambda x: x == "Python", languages))
