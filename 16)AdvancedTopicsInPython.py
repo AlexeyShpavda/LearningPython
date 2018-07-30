@@ -1,3 +1,23 @@
+# Contents:
+# Iterators for Dictionaries
+# keys() and values()
+# The 'in' Operator
+# Building Lists
+# List Comprehension Syntax
+# Now You Try!
+# List Slicing Syntax
+# Omitting Indices
+# Reversing a List
+# Stride Length
+# Practice Makes Perfect
+# Anonymous Functions
+# Lambda Syntax
+# Try It!
+# Iterating Over Dictionaries
+# Comprehending Comprehensions
+# List Slicing
+# Lambda Expressions
+
 print("### Iterators for Dictionaries ###")
 my_dict = {
   'name': 'Alex',
