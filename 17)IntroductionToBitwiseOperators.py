@@ -78,3 +78,20 @@ print(bin(0b1110 ^ 0b101))
 # 0 ^ 1 = 1
 # 1 ^ 0 = 1
 # 1 ^ 1 = 0
+
+print("### See? This is NOT That Hard! ###")
+print(~1)
+print(~2)
+print(~3)
+print(~42)
+print(~123)
+print(bin(~1))
+print(bin(~2))
+print(bin(~3))
+print(bin(~42))
+print(bin(~123))
+print(bin(1))
+print(bin(2))
+print(bin(3))
+print(bin(42))
+print(bin(123))
