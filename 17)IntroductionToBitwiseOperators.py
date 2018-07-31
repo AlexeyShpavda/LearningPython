@@ -104,3 +104,10 @@ def check_bit4(input):
     return "on"
   else:
     return "off"
+
+print("### Turn It On ###")
+a = 0b10111011
+
+mask = 0b100
+desired = a | mask
+print(bin(desired))
