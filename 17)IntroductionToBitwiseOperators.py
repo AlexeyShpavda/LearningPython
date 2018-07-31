@@ -31,3 +31,11 @@ nine = 0b1001
 ten = 0b1010
 eleven = 0b1011
 twelve = 0b1100
+
+print("### The bin() Function ###")
+print(bin(1))
+print(bin(2))
+print(bin(3))
+print(bin(4))
+print(bin(5))
+print(bin(1000))
