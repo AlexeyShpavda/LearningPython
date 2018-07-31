@@ -60,6 +60,14 @@ print(bin(shift_left))
 
 print("### A BIT of This AND That ###")
 print(bin(0b1110 & 0b101))
+# 0 & 0 = 0
+# 0 & 1 = 0
+# 1 & 0 = 0
+# 1 & 1 = 1
 
 print("### A BIT of This OR That ###")
 print(bin(0b1110 | 0b101))
+# 0 | 0 = 0
+# 0 | 1 = 1
+# 1 | 0 = 1
+# 1 | 1 = 1
