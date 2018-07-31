@@ -47,3 +47,13 @@ print(int("111",2))
 print(int("0b100",2))
 print(int(bin(5),2))
 print(int("11001001", 2))
+
+print("### Slide to the Left! Slide to the Right! ###")
+shift_right = 0b1100
+shift_left = 0b1
+
+shift_right = shift_right >> 2
+shift_left = shift_left << 2
+
+print(bin(shift_right))
+print(bin(shift_left))
