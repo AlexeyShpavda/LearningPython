@@ -111,3 +111,11 @@ a = 0b10111011
 mask = 0b100
 desired = a | mask
 print(bin(desired))
+
+print("### Just Flip Out ###")
+a = 0b11101110
+
+mask = 0b11111111
+desired = a ^ mask
+
+print(bin(desired))
