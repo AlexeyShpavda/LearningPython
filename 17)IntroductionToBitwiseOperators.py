@@ -57,3 +57,6 @@ shift_left = shift_left << 2
 
 print(bin(shift_right))
 print(bin(shift_left))
+
+print("### A BIT of This AND That ###")
+print(bin(0b1110 & 0b101))
