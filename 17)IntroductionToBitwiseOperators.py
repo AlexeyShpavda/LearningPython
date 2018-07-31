@@ -1,3 +1,19 @@
+# Contents:
+# Just a Little BIT
+# The Base 2 Number System
+# I Can Count to 1100!
+# The bin() Function
+# int()'s Second Parameter
+# Slide to the Left! Slide to the Right!
+# A BIT of This AND That
+# A BIT of This OR That
+# This XOR That?
+# See? This is NOT That Hard!
+# The Man Behind the Bit Mask
+# Turn It On
+# Just Flip Out
+# Slip and Slide
+
 print("### Just a Little BIT ###")
 print(5 >> 4)  # Right Shift
 print (5 << 1)  # Left Shift
