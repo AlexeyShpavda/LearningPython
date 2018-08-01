@@ -1,3 +1,14 @@
+# Contents:
+# Create an instance of a class
+# Class member variables
+# Initializing a class
+# Referring to member variables
+# Creating class methods
+# Modifying member variables
+# Inheritance
+# Overriding methods
+# Building useful classes
+
 print("### Create an instance of a class ###")
 # class Car(object):
 #   pass
