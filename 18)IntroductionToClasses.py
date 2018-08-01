@@ -8,6 +8,15 @@ print("### Classier Classes ###")
 #     pass
 
 print("### Let's Not Get Too Selfish ###")
+# class Animal(object):
+#   def __init__(self, name):
+#     self.name = name
+
+print("### Instantiating Your First Object ###")
 class Animal(object):
-  def __init__(self, name):
-    self.name = name
+    def __init__(self, name):
+        self.name = name
+
+zebra = Animal("Jeffrey")
+
+print(zebra.name)
