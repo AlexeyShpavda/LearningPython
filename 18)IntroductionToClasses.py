@@ -54,9 +54,26 @@ print("### Class Scope ###")
 # print(panda.name, panda.age, panda.is_alive)
 
 print("### A Methodical Approach ###")
+# class Animal(object):
+#     """Makes cute animals."""
+#     is_alive = True
+#
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#     def description(self):
+#         print(self.name)
+#         print(self.age)
+#
+# hippo = Animal("Anderson", 36)
+# hippo.description()
+
+print("### They're Multiplying! ###")
 class Animal(object):
     """Makes cute animals."""
     is_alive = True
+    health = "good"
 
     def __init__(self, name, age):
         self.name = name
@@ -66,6 +83,10 @@ class Animal(object):
         print(self.name)
         print(self.age)
 
-hippo = Animal("Anderson", 36)
-hippo.description()
+hippo = Animal('Anderson', 36)
+sloth = Animal('Dale', 15)
+ocelot = Animal('Fuzzy', 7)
 
+print(hippo.health)
+print(sloth.health)
+print(ocelot.health)
