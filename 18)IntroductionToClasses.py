@@ -148,3 +148,18 @@ class Triangle(Shape):
     self.side1 = side1
     self.side2 = side2
     self.side3 = side3
+
+print("### Override! ###")
+class Employee(object):
+  """Models real-life employees!"""
+  def __init__(self, employee_name):
+    self.employee_name = employee_name
+
+  def calculate_wage(self, hours):
+    self.hours = hours
+    return hours * 20.00
+
+class PartTimeEmployee(Employee):
+  def calculate_wage(self, hours):
+    self.hours = hours
+    return hours * 12.00
