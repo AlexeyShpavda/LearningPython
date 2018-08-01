@@ -38,17 +38,34 @@ print("### More on __init__() and self ###")
 # print(panda.name, panda.age, panda.is_hungry)
 
 print("### Class Scope ###")
+# class Animal(object):
+#   """Makes cute animals."""
+#   is_alive = True
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
+#
+# zebra = Animal("Jeffrey", 2)
+# giraffe = Animal("Bruce", 1)
+# panda = Animal("Chad", 7)
+#
+# print(zebra.name, zebra.age, zebra.is_alive)
+# print(giraffe.name, giraffe.age, giraffe.is_alive)
+# print(panda.name, panda.age, panda.is_alive)
+
+print("### A Methodical Approach ###")
 class Animal(object):
-  """Makes cute animals."""
-  is_alive = True
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+    """Makes cute animals."""
+    is_alive = True
 
-zebra = Animal("Jeffrey", 2)
-giraffe = Animal("Bruce", 1)
-panda = Animal("Chad", 7)
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-print(zebra.name, zebra.age, zebra.is_alive)
-print(giraffe.name, giraffe.age, giraffe.is_alive)
-print(panda.name, panda.age, panda.is_alive)
+    def description(self):
+        print(self.name)
+        print(self.age)
+
+hippo = Animal("Anderson", 36)
+hippo.description()
+
