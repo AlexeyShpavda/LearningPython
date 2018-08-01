@@ -3,6 +3,11 @@ print("### Class Syntax ###")
 #   pass
 
 print("### Classier Classes ###")
+# class Animal(object):
+#   def __init__(self):
+#     pass
+
+print("### Let's Not Get Too Selfish ###")
 class Animal(object):
-  def __init__(self):
-    pass
+  def __init__(self, name):
+    self.name = name
