@@ -1,3 +1,8 @@
 print("### Class Syntax ###")
+# class Animal(object):
+#   pass
+
+print("### Classier Classes ###")
 class Animal(object):
-  pass
+  def __init__(self):
+    pass
