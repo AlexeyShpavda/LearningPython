@@ -1,3 +1,22 @@
+# Contents:
+# Class Syntax
+# Classier Classes
+# Let's Not Get Too Selfish
+# Instantiating Your First Object
+# More on __init__() and self
+# Class Scope
+# A Methodical Approach
+# They're Multiplying!
+# It's Not All Animals and Fruits
+# Warning: Here Be Dragons
+# Inheritance Syntax
+# Override!
+# This Looks Like a Job For...
+# Class Basics
+# Class It Up
+# Instantiate an Object
+# Inheritance
+
 print("### Class Syntax ###")
 # class Animal(object):
 #   pass
