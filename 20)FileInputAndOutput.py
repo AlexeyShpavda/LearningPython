@@ -1,3 +1,13 @@
+# Contents:
+# See It to Believe It
+# The open() Function
+# Writing
+# Reading
+# Reading Between the Lines
+# PSA: Buffering Data
+# The 'with' and 'as' Keywords
+# Case Closed?
+
 print("### See It to Believe It ###")
 my_list = [i ** 2 for i in range(1, 11)]
 
