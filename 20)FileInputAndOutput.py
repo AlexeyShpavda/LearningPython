@@ -7,3 +7,7 @@ for item in my_list:
   f.write(str(item) + "\n")
 
 f.close()
+
+print("### The open() Function ###")
+my_file = open("output.txt", "r+")
+
