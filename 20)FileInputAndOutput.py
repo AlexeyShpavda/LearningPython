@@ -45,3 +45,7 @@ write_file.close()
 print(read_file.read())
 
 read_file.close()
+
+print("### The 'with' and 'as' Keywords ###")
+with open("textAS.txt", "w") as textfile:
+  textfile.write("Success!")
