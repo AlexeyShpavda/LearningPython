@@ -49,3 +49,12 @@ read_file.close()
 print("### The 'with' and 'as' Keywords ###")
 with open("textAS.txt", "w") as textfile:
   textfile.write("Success!")
+
+print("### Case Closed? ###")
+with open("textC.txt", "w") as my_file:
+    my_file.write("My Data!")
+
+if not my_file.closed:
+    my_file.close()
+
+print(my_file.closed)
