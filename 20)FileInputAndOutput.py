@@ -32,3 +32,16 @@ print(my_file.readline())
 print(my_file.readline())
 print(my_file.readline())
 my_file.close()
+
+print("### PSA: Buffering Data ###")
+write_file = open("text.txt", "w")
+
+read_file = open("text.txt", "r")
+
+write_file.write("Not closing files is VERY BAD.")
+
+write_file.close()
+
+print(read_file.read())
+
+read_file.close()
